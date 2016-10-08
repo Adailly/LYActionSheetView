@@ -65,7 +65,6 @@
 		2FC157AA1DA88F320014A7BD /* LYActionSheetView */ = {
 			isa = PBXGroup;
 			children = (
-				2FC157C61DA8CA1D0014A7BD /* Image */,
 				2FC157AE1DA88F320014A7BD /* AppDelegate.h */,
 				2FC157AF1DA88F320014A7BD /* AppDelegate.m */,
 				2FC157B11DA88F320014A7BD /* ViewController.h */,
@@ -76,6 +75,7 @@
 				2FC157B71DA88F320014A7BD /* Assets.xcassets */,
 				2FC157B91DA88F320014A7BD /* LaunchScreen.storyboard */,
 				2FC157BC1DA88F320014A7BD /* Info.plist */,
+				2FC157C61DA8CA1D0014A7BD /* Image */,
 				2FC157AB1DA88F320014A7BD /* Supporting Files */,
 			);
 			path = LYActionSheetView;
