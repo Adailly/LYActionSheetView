@@ -24,3 +24,7 @@
     
     // 显示view
     [sheetView show];
+
+效果<br>
+![效果1](https://github.com/HappyyardYang/LYActionSheetView/blob/master/LYActionSheetView/LYActionSheetView/Image/ActionSheetView2.gif)<br>
+![效果2](https://github.com/HappyyardYang/LYActionSheetView/blob/master/LYActionSheetView/LYActionSheetView/Image/actionSheetView.gif)
