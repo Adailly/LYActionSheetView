@@ -18,7 +18,7 @@
         NSLog(@"%@ -- %zd", selectedString, index);
     }
     
-    // 或对个选项
+    // 或多个选项
     // 创建view
     LYActionSheetView *sheetView = [[LYActionSheetView alloc] initWithTitle:nil delegate:self actionSheetArray:@[@"小视频", @"拍照", @"从相册中选择"]];
     
