@@ -14,6 +14,8 @@
 		2FC157B81DA88F320014A7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC157B71DA88F320014A7BD /* Assets.xcassets */; };
 		2FC157BB1DA88F320014A7BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC157B91DA88F320014A7BD /* LaunchScreen.storyboard */; };
 		2FC157C41DA88FAA0014A7BD /* LYActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC157C31DA88FAA0014A7BD /* LYActionSheetView.m */; };
+		2FC157C91DA8CA1D0014A7BD /* actionSheetView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2FC157C71DA8CA1D0014A7BD /* actionSheetView.gif */; };
+		2FC157CA1DA8CA1D0014A7BD /* ActionSheetView2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2FC157C81DA8CA1D0014A7BD /* ActionSheetView2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		2FC157BC1DA88F320014A7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FC157C21DA88FAA0014A7BD /* LYActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYActionSheetView.h; sourceTree = "<group>"; };
 		2FC157C31DA88FAA0014A7BD /* LYActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYActionSheetView.m; sourceTree = "<group>"; };
+		2FC157C71DA8CA1D0014A7BD /* actionSheetView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = actionSheetView.gif; sourceTree = "<group>"; };
+		2FC157C81DA8CA1D0014A7BD /* ActionSheetView2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ActionSheetView2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		2FC157AA1DA88F320014A7BD /* LYActionSheetView */ = {
 			isa = PBXGroup;
 			children = (
+				2FC157C61DA8CA1D0014A7BD /* Image */,
 				2FC157AE1DA88F320014A7BD /* AppDelegate.h */,
 				2FC157AF1DA88F320014A7BD /* AppDelegate.m */,
 				2FC157B11DA88F320014A7BD /* ViewController.h */,
@@ -82,6 +87,15 @@
 				2FC157AC1DA88F320014A7BD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC157C61DA8CA1D0014A7BD /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2FC157C71DA8CA1D0014A7BD /* actionSheetView.gif */,
+				2FC157C81DA8CA1D0014A7BD /* ActionSheetView2.gif */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FC157BB1DA88F320014A7BD /* LaunchScreen.storyboard in Resources */,
+				2FC157C91DA8CA1D0014A7BD /* actionSheetView.gif in Resources */,
 				2FC157B81DA88F320014A7BD /* Assets.xcassets in Resources */,
 				2FC157B61DA88F320014A7BD /* Main.storyboard in Resources */,
+				2FC157CA1DA8CA1D0014A7BD /* ActionSheetView2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +322,7 @@
 				2FC157C11DA88F320014A7BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
